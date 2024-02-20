@@ -65,7 +65,7 @@ const displayTable = () => {
     const total = document.createElement("tr");
 
     total.innerHTML = `<td colspan="2" style="font-weight: 700">Total</td>
-                       <td style="font-weight: 700">${toString("R$" + totalDeCompras.toFixed(2))}</td>`;
+                       <td style="font-weight: 700">R$ ${totalDeCompras.toFixed(2)}</td>`;
 
     tfoot.appendChild(total);
 }
